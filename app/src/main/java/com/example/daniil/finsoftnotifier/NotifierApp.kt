@@ -42,8 +42,6 @@ class NotifierApp : Application() {
 
         pushoverApiService = retrofitPushover.create(PushoverApiService::class.java)
 
-
-//        NotifierMessagesProvider.instance.injectDbProvider(MockNotifierMessagesProvider.instance)
         NotifierMessagesProvider.instance.injectDbProvider(database.pushoverMessageDao())
         PushoverApiProvider.instance.injectApiProvider(pushoverApiService)
     }
