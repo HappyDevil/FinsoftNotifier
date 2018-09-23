@@ -70,7 +70,7 @@ class NotifierMessagesProvider private constructor() {
 
     fun getDefaultMessage(): PushoverMessageDB {
         return PushoverMessageDB(token = "aaaym6n214st7zwqmbjosghh44xhr8",
-                user = "ue4cfm595k1r1xdrkxpw7kbnxsm4we",
+                user = "",
                 message = "hhh")
     }
 
