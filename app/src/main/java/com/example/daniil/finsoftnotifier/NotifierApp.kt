@@ -38,10 +38,11 @@ class NotifierApp : Application() {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
-        database.clearAllTables()
 
         pushoverApiService = retrofitPushover.create(PushoverApiService::class.java)
 
+
+//        NotifierMessagesProvider.instance.injectDbProvider(MockNotifierMessagesProvider.instance)
         NotifierMessagesProvider.instance.injectDbProvider(database.pushoverMessageDao())
         PushoverApiProvider.instance.injectApiProvider(pushoverApiService)
     }
