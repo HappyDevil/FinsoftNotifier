@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_horiz">5dp</dimen>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="online_size">4dp</dimen>
+    <dimen name="layout_vert">15dp</dimen>
+    <dimen name="textArea">90dp</dimen>
+    <dimen name="padding_bottom">5dp</dimen>
+    <dimen name="padding_top">15dp</dimen>
+    <dimen name="search_margin_top">5dp</dimen>
+    <dimen name="paading_horiz">1dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="start_text_margin">5dp</dimen>
+    <dimen name="item_padding">5dp</dimen>
+    <dimen name="padding_null">0dp</dimen>
+    <dimen name="margin_top">17dp</dimen>
+    <dimen name="main_marginBottom">22dp</dimen>
+</resources>

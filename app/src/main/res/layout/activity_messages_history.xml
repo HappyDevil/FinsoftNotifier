@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.MessagesHistoryActivity"
+        android:padding="@dimen/paading_horiz"
+        android:paddingTop="@dimen/padding_top"
+        android:paddingBottom="@dimen/padding_null"
+        android:background="@color/backgroundColor">
+
+        <EditText
+            android:id="@+id/txt_messages_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/search_margin_top"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/start_text_margin"
+            android:padding="@dimen/start_text_margin"
+            android:hint="@string/search_hint"
+            android:textColorHint="@color/white"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_history"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/notification_item" />
+
+            <TextView
+                android:id="@+id/txt_no_items"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/no_items"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</layout>

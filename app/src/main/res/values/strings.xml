@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FinsoftNotifier</string>
+    <string name="sendTitle">Создать уведомление</string>
+    <string name="sendNotif">Отправить</string>
+    <string name="waitNotif">Ожидайте</string>
+    <string name="prompt_appID">Application ID*</string>
+    <string name="prompt_userID">User ID*</string>
+    <string name="prompt_textNotif">Текс уведомления*</string>
+    <string name="sendNotifNow">Отправить уведомление сейчас</string>
+    <string name="empty"> </string>
+    <string name="send">отправлено</string>
+    <string name="scheduled">отложено</string>
+    <string name="search_hint">Введите запрос</string>
+    <string name="no_items">Пусто</string>
+    <string name="app_sub_text">Приложение</string>
+    <string name="message_sub_text">Текст</string>
+    <string name="user_sub_text">Пользователь</string>
+    <string name="statsForPeriod">Статистика уведомлений:</string>
+    <string name="sub_create_date_text">Создано</string>
+    <string name="sub_send_date_text">Отправлено</string>
+    <string name="time_to_send_hint">Время отправления</string>
+    <string name="prompt_textUrl">URL</string>
+    <string name="prompt_textUrl_title">Заголовок URL</string>
+    <string name="prompt_title">Заголовок</string>
+    <string name="prompt_device">Устройство</string>
+</resources>
