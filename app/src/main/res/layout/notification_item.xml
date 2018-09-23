@@ -147,7 +147,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="24dp"
-            android:text="@{pushoverMessageModel.messageModel.createDate}"
+            app:unixTimestamp="@{pushoverMessageModel.messageModel.apiData.sendingTimeStamp}"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
